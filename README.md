@@ -49,5 +49,5 @@ Usage
 
 ```php
 Markdown::parse('__Hello__ Markdown!');
-// returns '<p><strong>Hello</strong> markdown!</p>'
+// returns '<p><strong>Hello</strong> Markdown!</p>'
 ```
