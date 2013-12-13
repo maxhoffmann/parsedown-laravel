@@ -8,7 +8,7 @@ A Parsedown wrapper for Laravel to compile markdown to HTML.
 Installation
 ------------
 
-__require package in__ `composer.json`
+require package in `composer.json`
 
 ```json
 "require": {
@@ -17,7 +17,7 @@ __require package in__ `composer.json`
 },
 ```
 
-__add parsedown’s service provider in__ `config/app.php`
+add parsedown’s service provider in `config/app.php`
 
 ```php
 'providers' => array(
@@ -30,7 +30,7 @@ __add parsedown’s service provider in__ `config/app.php`
 ),
 ```
 
-__ and parsedown’s facade__ (also in `config/app.php`)
+and parsedown’s facade (also in `config/app.php`)
 
 ```php
 'aliases' => array(
