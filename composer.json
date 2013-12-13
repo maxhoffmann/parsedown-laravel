@@ -16,7 +16,6 @@
     },
     "autoload": {
         "psr-0": {
-            "Parsedown": "vendor/erusev/parsedown",
             "MaxHoffmann\\Parsedown": "src/"
         }
     }
