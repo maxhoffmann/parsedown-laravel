@@ -1,0 +1,22 @@
+{
+    "name": "maxhoffmann/parsedown-laravel",
+    "description": "A parsedown (markdown) wrapper for Laravel ",
+    "keywords": ["laravel", "laravel 4", "parsedown", "markdown", "php"],
+    "homepage": "https://github.com/maxhoffmann/parsedown-laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maximilian Hoffmann",
+            "email": "max@maximilianhoffmann.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "erusev/parsedown": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Parsedown": "vendor/erusev/parsedown"
+        }
+    }
+}
