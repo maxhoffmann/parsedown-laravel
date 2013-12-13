@@ -1,5 +1,5 @@
 {
-    "name": "MaxHoffmann/Parsedown",
+    "name": "maxhoffmann/parsedown",
     "description": "A parsedown (markdown) wrapper for Laravel ",
     "keywords": ["laravel", "laravel 4", "parsedown", "markdown", "php"],
     "homepage": "https://github.com/maxhoffmann/parsedown-laravel",
