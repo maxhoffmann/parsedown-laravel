@@ -1,5 +1,5 @@
 {
-    "name": "maxhoffmann/parsedown-laravel",
+    "name": "Maxhoffmann/Parsedown",
     "description": "A parsedown (markdown) wrapper for Laravel ",
     "keywords": ["laravel", "laravel 4", "parsedown", "markdown", "php"],
     "homepage": "https://github.com/maxhoffmann/parsedown-laravel",
@@ -16,7 +16,8 @@
     },
     "autoload": {
         "psr-0": {
-            "Parsedown": "vendor/erusev/parsedown"
+            "Parsedown": "vendor/erusev/parsedown",
+            "MaxHoffmann\\Parsedown": "src/"
         }
     }
 }

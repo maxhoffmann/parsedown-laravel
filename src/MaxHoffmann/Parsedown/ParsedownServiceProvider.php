@@ -1,4 +1,4 @@
-<?php
+<?php namespace MaxHoffmann\Parsedown;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -8,7 +8,7 @@ class ParsedownServiceProvider extends ServiceProvider {
     {
         $this->app->bind('parsedown', function()
         {
-            return new Parsedown;
+            return new \Parsedown;
         });
     }
 

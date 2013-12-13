@@ -1,4 +1,4 @@
-<?php
+<?php namespace MaxHoffmann\Parsedown;
 
 use Illuminate\Support\Facades\Facade;
 
