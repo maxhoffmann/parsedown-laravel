@@ -8,7 +8,7 @@ class ParsedownServiceProvider extends ServiceProvider {
     {
         $this->app->singleton('parsedown', function()
         {
-            return new \Parsedown;
+            return new Parsedown;
         });
     }
 
