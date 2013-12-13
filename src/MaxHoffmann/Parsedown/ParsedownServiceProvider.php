@@ -6,7 +6,7 @@ class ParsedownServiceProvider extends ServiceProvider {
 
     public function register()
     {
-        $this->app->bind('parsedown', function()
+        $this->app->singleton('parsedown', function()
         {
             return new \Parsedown;
         });
